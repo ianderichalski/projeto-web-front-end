@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="pics/favicon.ico" type="image/x-icon">
+    <title>Materiais - Fluenty</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo-center">
+                    <img src="pics/logo.png" alt="Fluenty Logo" class="logo-img">
+                </div>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="materiais.html">Materiais</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="materiais">
+            <div class="container">
+                <h2>Materiais Disponíveis</h2>
+
+                <!-- Filtros via CSS -->
+                <div class="filtros">
+                    <a href="#todos" class="filtro-btn">Todos</a>
+                    <a href="#gramatica" class="filtro-btn">Gramática</a>
+                    <a href="#vocabulario" class="filtro-btn">Vocabulário</a>
+                    <a href="#listening" class="filtro-btn">Listening</a>
+                    <a href="#speaking" class="filtro-btn">Speaking</a>
+                    <a href="#exercicios" class="filtro-btn">Exercícios</a>
+                    <a href="#dicas" class="filtro-btn">Dicas</a>
+                </div>
+
+                <!-- Cards com ID para filtros -->
+                <div class="cards-grid">
+
+                    <div id="gramatica" class="card">
+                        <a href="#modal-gramatica">
+                            <img src="pics/gramatica-logo.png" alt="Gramática">
+                            <h3>Gramática Básica</h3>
+                        </a>
+                    </div>
+
+                    <div id="vocabulario" class="card">
+                        <a href="#modal-vocabulario">
+                            <img src="pics/vocab-logo.png" alt="Vocabulário">
+                            <h3>Vocabulário Essencial</h3>
+                        </a>
+                    </div>
+
+                    <div id="exercicios" class="card">
+                        <a href="#modal-exercicios">
+                            <img src="pics/exercicios-logo.png" alt="Exercícios">
+                            <h3>Exercícios Interativos</h3>
+                        </a>
+                    </div>
+
+                    <div id="dicas" class="card">
+                        <a href="#modal-dicas">
+                            <img src="pics/dicas-logo.png" alt="Dicas">
+                            <h3>Dicas de Estudo</h3>
+                        </a>
+                    </div>
+
+                    <div id="listening" class="card">
+                        <a href="#modal-listening">
+                            <img src="pics/listening-logo.png" alt="Listening">
+                            <h3>Listening</h3>
+                        </a>
+                    </div>
+
+                    <div id="speaking" class="card">
+                        <a href="#modal-speaking">
+                            <img src="pics/speaking-logo.png" alt="Speaking">
+                            <h3>Speaking</h3>
+                        </a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <div id="modal-gramatica" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <h3>Gramática Básica</h3>
+            <p>Aprenda os conceitos essenciais da gramática inglesa. Exemplos de tempos verbais, pronomes e regras essenciais.</p>
+        </div>
+    </div>
+
+    <div id="modal-vocabulario" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <h3>Vocabulário Essencial</h3>
+            <p>Palavras e expressões mais usadas no dia a dia. Listas de vocabulário por temas e níveis.</p>
+        </div>
+    </div>
+
+    <div id="modal-exercicios" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <h3>Exercícios Interativos</h3>
+            <p>Pratique o inglês com exercícios divertidos e dinâmicos, incluindo quizzes e jogos de vocabulário.</p>
+        </div>
+    </div>
+
+    <div id="modal-dicas" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <h3>Dicas de Estudo</h3>
+            <p>Melhore sua aprendizagem com nossas dicas e truques, técnicas de memorização e hábitos de estudo.</p>
+        </div>
+    </div>
+
+    <div id="modal-listening" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <h3>Listening</h3>
+            <p>Exercícios de compreensão auditiva para todos os níveis, incluindo podcasts e áudios de diálogos.</p>
+        </div>
+    </div>
+
+    <div id="modal-speaking" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <h3>Speaking</h3>
+            <p>Pratique pronúncia e conversação em inglês com dicas de entonação e exercícios de fala.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Fluenty. Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
