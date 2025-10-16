@@ -34,10 +34,11 @@ O projeto será publicado via **GitHub Pages**.
 
 - **index.html** → Página principal do site  
 - **cadastro.html** → Página de cadastro com formulário (mín. 5 campos)  
-- **login.html** → Página de login para usuários cadastrados  
+- **login.html** → Página de login para usuários cadastrados
+- **materiais.html** → Página das seções dos materiais  
 - **css/**
   - `style.css` → Arquivo de estilos  
-- **imagens/** → Pasta de imagens utilizadas no site  
+- **pics/** → Pasta de imagens utilizadas no site  
 - **README.md** → Documentação do projeto  
 
 ---
