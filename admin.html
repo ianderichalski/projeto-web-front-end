@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="pics/favicon.ico" type="image/x-icon">
+    <title>Admin - Fluenty</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/admin.css"> 
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo-center">
+                    <img src="pics/logo.png" alt="Fluenty Logo" class="logo-img">
+                </div>
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="materiais.html">Materiais</a></li>
+                    <li><a href="cadastro.html">Cadastro</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="admin.html">Admin</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="admin-section">
+                <h2 class="admin-title">Gerenciamento de Usuários (Admin)</h2>
+
+                <div class="form-container">
+                    <h3>Cadastrar Novo Usuário</h3>
+                    <form id="form-cadastro">
+                        <input type="text" id="input-nome" placeholder="Nome do Usuário" required>
+                        <input type="email" id="input-email" placeholder="E-mail" required>
+                        <div class="form-actions">
+                            <button type="submit" class="submit-btn" id="btn-cadastrar">Cadastrar</button>
+                            <button type="button" class="clear-btn" id="btn-limpar">Limpar Campos</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="search-actions">
+                    <input type="text" id="input-pesquisa" placeholder="Pesquisar por Nome ou E-mail">
+                    <button type="button" class="delete-all-btn" id="btn-excluir-todos">Excluir Todos</button>
+                </div>
+
+                <div class="list-container">
+                    <h3>Usuários Cadastrados</h3>
+                    <ul id="lista-usuarios">
+                        </ul>
+                </div>
+                
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 Fluenty. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/admin.js"></script> 
+</body>
+</html>

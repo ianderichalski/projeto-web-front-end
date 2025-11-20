@@ -1,0 +1,126 @@
+.admin-section {
+    padding: 40px 20px;
+    background-color: var(--cor5);
+    border-radius: 10px;
+    margin: 40px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-title {
+    text-align: center;
+    color: var(--cor4);
+    margin-bottom: 30px;
+    font-size: 2.2rem;
+}
+
+.form-actions {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+#form-cadastro input[type="text"],
+#form-cadastro input[type="email"] {
+    margin-bottom: 10px;
+}
+
+.submit-btn {
+    background-color: var(--cor1);
+    color: var(--cor3);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    flex: 1;
+}
+
+.clear-btn {
+    background-color: var(--cor2);
+    color: var(--cor3);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    flex: 1;
+}
+
+.submit-btn:hover, .clear-btn:hover {
+    opacity: 0.9;
+}
+
+.search-actions {
+    display: flex;
+    gap: 10px;
+    margin: 30px 0;
+    align-items: center;
+}
+
+#input-pesquisa {
+    padding: 10px;
+    flex: 3;
+    border: 1px solid var(--cor4);
+    border-radius: 5px;
+}
+
+.delete-all-btn {
+    background-color: #EF4444;
+    color: var(--cor3);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    flex: 1;
+    transition: 0.3s;
+}
+
+.delete-all-btn:hover {
+    background-color: #DC2626;
+}
+
+.list-container {
+    margin-top: 20px;
+}
+
+#lista-usuarios {
+    list-style: none;
+    padding: 0;
+}
+
+#lista-usuarios li {
+    background-color: var(--cor3);
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.delete-item-btn {
+    background: none;
+    border: none;
+    color: var(--cor2);
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 15px;
+    transition: color 0.3s;
+}
+
+.delete-item-btn:hover {
+    color: var(--cor4);
+}
+
+@media (max-width: 600px) {
+    .search-actions, .form-actions {
+        flex-direction: column;
+    }
+
+    #input-pesquisa, .delete-all-btn, .submit-btn, .clear-btn {
+        width: 100%;
+    }
+}
