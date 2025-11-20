@@ -52,6 +52,6 @@ O projeto será publicado via **GitHub Pages**.
 ---
 
 ## 🚀 Acesse o Projeto
-👉 [Clique aqui para acessar o site pelo GitHub Pages]()  
+👉 [Clique aqui para acessar o site pelo GitHub Pages](https://ianderichalski.github.io/projeto-web-front-end/)  
 
 ---
